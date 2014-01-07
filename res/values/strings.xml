@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safe Storage</string>
+    <string name="up_one_level">..</string>
+    <string name="current_dir">Set Path Here</string>
+    <string name="setToPics">Set Path To Pictures</string>
+    <string name="setToDownloads">Set Path To Downloads</string>
+    <string name="compareFilesNow">Compare Files Now</string>
+    <string name="emailAddress">Enter Your Email Address</string>
+    <string name="testEmail">Trentmrand@gmail.com</string>
+    <string name="newFileTest">Add A New File To Watch Path For Testing</string>
+    <string name="deleteTestFile">Delete Test File</string>
+</resources>
+

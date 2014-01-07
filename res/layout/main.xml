@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget30"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/compareNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:text="@string/compareFilesNow" />
+
+    <Button
+        android:id="@+id/setToPicsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/compareNow"
+        android:text="@string/setToPics" />
+
+    <Button
+        android:id="@+id/setToDownloads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/setToPicsButton"
+        android:text="@string/setToDownloads" />
+
+    <Button
+        android:id="@+id/snapShot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/setToPicsButton"
+        android:text="Make Snapshot Now" />
+
+    <Button
+        android:id="@+id/watchPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/snapShot"
+        android:text="Set Watch Path" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/watchPath"
+        android:layout_toRightOf="@+id/watchPath"
+        android:hint="@string/emailAddress"
+        android:inputType="textEmailAddress"
+        android:text="@string/testEmail" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/newFileInPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setToPicsButton"
+        android:layout_alignParentRight="true"
+        android:text="@string/newFileTest" />
+
+    <Button
+        android:id="@+id/deleteTestFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/setToDownloads"
+        android:text="@string/deleteTestFile" />
+
+    <Button
+        android:id="@+id/auth_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/emailAddress"
+        android:text="Link with Dropbox" />
+
+</RelativeLayout>
